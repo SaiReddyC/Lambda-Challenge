@@ -29,7 +29,7 @@ function lambdaSchool(num) {
   } else if (num % 5 === 0) {
     return "School"
   } else if (num % 3 === 0) {
-    return "Lambda "
+    return "Lambda"
   } else {
     return num
   }
@@ -50,7 +50,7 @@ function lambdaSchool(num) {
 function longestString(strs) {
   var word = 0;
   var longest;
-  for (var i = 0; i < srts.length; i++) {
+  for (var i = 0; i < strs.length; i++) {
       if (strs[i].length > word) {
         word =strs[i].length;
         longest = strs[i];

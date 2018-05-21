@@ -1,0 +1,25 @@
+> precourse-assessment@1.0.0 test /home/peace/Project/Lambda-Challenge
+> jest assessment.test.js
+
+ PASS  ./assessment.test.js
+  Lambda School Precourse Assessment
+    helloWorld
+      ✓ should return a string (2ms)
+      ✓ should return the string 'Hello World!' (1ms)
+    lambdaSchool
+      ✓ should return 'Lambda' for a number divisible by 3
+      ✓ should return 'School' for a number divisible by 5 (1ms)
+      ✓ should return 'Lambda School' for a number divisible by 3 and 5
+    longestString
+      ✓ should return the longest string in the array
+      ✓ should return the first longest string if there is a tie (1ms)
+    computeUserAverageAge
+      ✓ should return the average age of the users
+      ✓ should round the average before returning it
+
+Test Suites: 1 passed, 1 total
+Tests:       9 passed, 9 total
+Snapshots:   0 total
+Time:        0.633s, estimated 1s
+Ran all test suites matching /assessment.test.js/i.
+[peace@ngell Lambda-Challenge]$
