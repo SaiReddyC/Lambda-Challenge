@@ -36,7 +36,6 @@ function lambdaSchool(num) {
 }
 
 
-lambdaSchool(25)
 /*
 3. Write a function called longestString that has a single parameter called strs.
      strs will be an array of strings.
@@ -48,9 +47,19 @@ lambdaSchool(25)
              longestString(['JavaScript', 'HTML', 'CSS']); // returns 'JavaScript'
 */
 
-function longestString() {
+function longestString(strs) {
+  var word = 0;
+  var longest;
+  for (var i = 0; i < srts.length; i++) {
+      if (strs[i].length > word) {
+        word =strs[i].length;
+        longest = strs[i];
+      }
+  }
+  return longest;
 
 }
+
 
 /*
 4. Write a function called computeUserAverageAge that has a single parameter called users
@@ -73,9 +82,20 @@ function longestString() {
              computeUserAverageAge(users); // returns 62 (This number is rounded up from 61.6666)
 */
 
-function computeUserAverageAge() {
 
+function computeUserAverageAge(users) {
+
+	var age = 0,
+	average;
+
+  for (var i = 0; i< users.length; i ++){
+		age +=users[i].age;
+  }
+
+	average = age / users.length;
+	return Math.round(average)
 }
+
 
 module.exports = {
   helloWorld,
